@@ -17,11 +17,6 @@
             "Arokettu\\ConsoleMenu\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Arokettu\\ConsoleMenu\\Demo\\": "demo"
-        }
-    },
     "require": {
         "php": ">= 7.1.3",
         "php-school/cli-menu": "^3.0",
