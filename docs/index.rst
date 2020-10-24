@@ -16,13 +16,11 @@ Screenshots
 ===========
 
 .. figure:: images/menu.png
-   :target: images/menu.png
    :width: 595
 
    The menu
 
 .. figure:: images/params.png
-   :target: images/params.png
    :width: 595
 
    If command has any parameters, a param input will be shown
