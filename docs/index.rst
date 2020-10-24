@@ -55,7 +55,7 @@ The library is available as open source under the terms of the `MIT License`_.
 .. _MIT License:        https://opensource.org/licenses/MIT
 
 .. |Packagist|  image:: https://img.shields.io/packagist/v/arokettu/console-menu.svg
-   :target:     https://packagist.org/packages/arokettu/bencode
+   :target:     https://packagist.org/packages/arokettu/console-menu
 .. |GitHub|     image:: https://img.shields.io/badge/get%20on-GitHub-informational.svg?logo=github
    :target:     https://github.com/arokettu/console-menu
 .. |GitLab|     image:: https://img.shields.io/badge/get%20on-GitLab-informational.svg?logo=gitlab
