@@ -13,6 +13,9 @@ class ConsoleMenuCommand extends Command
 {
     public const STYLE_PLAIN   = 1;
     public const STYLE_GROUPED = 2;
+    /**
+     * @internal
+     */
     public const STYLE_SUBMENU = 3;
 
     protected static $defaultName = 'menu';
