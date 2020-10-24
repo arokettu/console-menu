@@ -1,14 +1,22 @@
 {
     "name": "arokettu/console-menu",
     "description": "CLI menu for Symfony Console",
+    "keywords": ["console", "command list"],
     "type": "library",
     "license": "MIT",
+    "homepage": "https://sandfox.dev/php/console-menu.html",
     "authors": [
         {
             "name": "Anton Smirnov",
-            "email": "sandfox@sandfox.me"
+            "email": "sandfox@sandfox.me",
+            "homepage": "https://sandfox.me/",
+            "role": "developer"
         }
     ],
+    "support": {
+        "issues": "https://gitlab.com/sandfox/console-menu/-/issues",
+        "source": "https://gitlab.com/sandfox/console-menu"
+    },
     "config": {
         "sort-packages": true
     },
