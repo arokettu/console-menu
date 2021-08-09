@@ -1,7 +1,7 @@
 # Console Menu
 
-[![Packagist](https://img.shields.io/packagist/v/arokettu/console-menu.svg)](https://packagist.org/packages/arokettu/console-menu)
-[![Packagist](https://img.shields.io/packagist/l/arokettu/console-menu.svg)](https://opensource.org/licenses/MIT)
+[![Packagist](https://img.shields.io/packagist/v/arokettu/console-menu.svg?style=flat-square)](https://packagist.org/packages/arokettu/console-menu)
+[![Packagist](https://img.shields.io/packagist/l/arokettu/console-menu.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 Command list menu for [Symfony Console]
 
