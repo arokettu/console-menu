@@ -5,7 +5,7 @@
 
 Command list menu for [Symfony Console]
 
-![Screenshot](https://sandfox.dev/_images/menu.png)
+![Screenshot](/docs/images/menu.png)
 
 ## Installation
 
