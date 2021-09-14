@@ -1,1 +1,2 @@
-/demo   export-
+/demo   export-ignore
+/.git*  export-ignore
