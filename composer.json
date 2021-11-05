@@ -15,7 +15,8 @@
     ],
     "support": {
         "issues": "https://gitlab.com/sandfox/console-menu/-/issues",
-        "source": "https://gitlab.com/sandfox/console-menu"
+        "source": "https://gitlab.com/sandfox/console-menu",
+        "docs": "https://arokettu-console-menu.readthedocs.io/"
     },
     "config": {
         "sort-packages": true
