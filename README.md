@@ -29,6 +29,8 @@ $app->add(new \Arokettu\ConsoleMenu\ConsoleMenuCommand());
 
 Read full documentation here: <https://sandfox.dev/php/console-menu.html>
 
+Also on Read the Docs: <https://arokettu-console-menu.readthedocs.io/>
+
 ## Support
 
 Please file issues on our main repo at GitLab: <https://gitlab.com/sandfox/console-menu/-/issues>
