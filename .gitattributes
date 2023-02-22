@@ -1,2 +1,7 @@
-/demo   export-ignore
-/.git*  export-ignore
+/demo               export-ignore
+/docs               export-ignore
+/tests              export-ignore
+/.git*              export-ignore
+/*.yml              export-ignore
+/*.xml              export-ignore
+/*.xml.dist         export-ignore
