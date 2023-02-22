@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Arokettu\ConsoleMenu;
 
 use PhpSchool\CliMenu\Builder\CliMenuBuilder;
@@ -33,12 +35,12 @@ class ConsoleMenuCommand extends Command
         $this->style = $style;
     }
 
-    public function initialize(InputInterface $input, OutputInterface $output)
+    public function initialize(InputInterface $input, OutputInterface $output): void
     {
         $this->setDescription('Console Menu');
     }
 
-    public function execute(InputInterface $input, OutputInterface $output)
+    public function execute(InputInterface $input, OutputInterface $output): int
     {
         $app = $this->getApplication();
 
@@ -81,7 +83,7 @@ class ConsoleMenuCommand extends Command
     private function buildMenu(CliMenuBuilder $menuBuilder, array $commands, OutputInterface $output): void
     {
         if ($this->style === self::STYLE_SUBMENU) {
-
+            // todo
         } else {
             $this->buildPlainMenu($menuBuilder, $commands, $output);
         }
@@ -110,13 +112,13 @@ class ConsoleMenuCommand extends Command
                 }
             }
 
-            $menuBuilder->addItem($name, function () use ($command, $output) {
+            $menuBuilder->addItem($name, function () use ($command, $output): void {
                 $this->runCommand($command, $output);
             });
         }
     }
 
-    private function runCommand(Command $command, OutputInterface $output)
+    private function runCommand(Command $command, OutputInterface $output): void
     {
         if ($command->getSynopsis() === $command->getName()) {
             $cli = '';
