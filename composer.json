@@ -16,7 +16,8 @@
     "support": {
         "issues": "https://gitlab.com/sandfox/console-menu/-/issues",
         "source": "https://gitlab.com/sandfox/console-menu",
-        "docs": "https://arokettu-console-menu.readthedocs.io/"
+        "docs": "https://arokettu-console-menu.readthedocs.io/",
+        "chat": "https://gitter.im/arokettu/community"
     },
     "config": {
         "allow-plugins": {
