@@ -6,7 +6,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class DummyCommand extends Command
 {
-    public function execute(InputInterface $input, OutputInterface $output)
+    public function execute(InputInterface $input, OutputInterface $output): int
     {
         $output->writeln($this->getName() . ' was called');
         return 0;

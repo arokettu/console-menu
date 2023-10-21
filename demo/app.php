@@ -8,7 +8,7 @@ require __DIR__ . '/dummy_command.php';
 
 $app = new Application();
 
-$app->add(new ConsoleMenuCommand());
+$app->add(new ConsoleMenuCommand('menu'));
 $app->add(new DummyCommand('demo:command:c1'));
 $app->add(new DummyCommand('demo:command:c2'));
 $app->add(new DummyCommand('test:test'));
