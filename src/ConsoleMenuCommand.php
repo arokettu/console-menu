@@ -29,7 +29,7 @@ class ConsoleMenuCommand extends Command
      */
     private $menu = null;
 
-    public function __construct(string $name = null, int $style = self::STYLE_GROUPED)
+    public function __construct(?string $name = null, int $style = self::STYLE_GROUPED)
     {
         parent::__construct($name);
         $this->style = $style;
