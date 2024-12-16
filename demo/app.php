@@ -1,6 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
 use Arokettu\ConsoleMenu\ConsoleMenuCommand;
+use Dummy\Dummy\DummyCommand;
 use Symfony\Component\Console\Application;
 
 require __DIR__ . '/../vendor/autoload.php';
