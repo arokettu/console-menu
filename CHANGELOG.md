@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+*Dec 16, 2024*
+
+* Fix PHP 8.4 deprecation
+
 ## 1.0.2
 
 *Oct 22, 2023*
