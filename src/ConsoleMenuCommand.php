@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @copyright 2023 Anton Smirnov
+ * @copyright 2020 Anton Smirnov
  * @license MIT https://spdx.org/licenses/MIT.html
  */
 
