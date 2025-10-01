@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4
+
+*Oct 1, 2025*
+
+* Exclude Symfony 7 CLI completion commands from the menu
+
 ## 1.0.3
 
 *Dec 16, 2024*
