@@ -12,6 +12,8 @@ namespace Arokettu\ConsoleMenu;
 use PhpSchool\CliMenu\Builder\CliMenuBuilder;
 use PhpSchool\CliMenu\CliMenu;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Command\CompleteCommand;
+use Symfony\Component\Console\Command\DumpCompletionCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\StringInput;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -49,7 +51,11 @@ final class ConsoleMenuCommand extends Command
     {
         $app = $this->getApplication();
 
-        $commands = $app->all();
+        $commands = array_filter($app->all(), static function ($command) {
+            return
+                !($command instanceof CompleteCommand) &&
+                !($command instanceof DumpCompletionCommand);
+        });
 
         uksort($commands, function ($k1, $k2) {
             switch ($this->style) {
