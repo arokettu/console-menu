@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2023 Anton Smirnov
+ * @license MIT https://spdx.org/licenses/MIT.html
+ */
+
 declare(strict_types=1);
 
 namespace Arokettu\ConsoleMenu;
@@ -11,7 +16,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\StringInput;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class ConsoleMenuCommand extends Command
+final class ConsoleMenuCommand extends Command
 {
     public const STYLE_PLAIN   = 1;
     public const STYLE_GROUPED = 2;
@@ -125,6 +130,8 @@ class ConsoleMenuCommand extends Command
         } else {
             $result = $this->menu->askText()
                 ->setPromptText($command->getSynopsis())
+                // This closure is later bound
+                // phpcs:ignore SlevomatCodingStandard.Functions.StaticClosure.ClosureNotStatic
                 ->setValidator(function () {
                     return true;
                 }) // allow empty
