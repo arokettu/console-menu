@@ -4,5 +4,6 @@
 -->
 <ruleset>
     <rule ref="SandFox_PHP71"/>
+    <file>demo</file>
     <file>src</file>
 </ruleset>
